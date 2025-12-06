@@ -16,7 +16,7 @@ Assessment of proposed or existing regulations, including competition impacts, s
 Economic briefs, market studies, and structured quantitative or qualitative analysis.
 
 ## Competition Assessments
-Evaluation of market structure, potential anti-competitive conduct, and sector-specific risks.
+Evaluation of market structure and sector-specific risks.
 
 ## Advisory Support
 Strategic guidance for firms, associations, and policy stakeholders.
