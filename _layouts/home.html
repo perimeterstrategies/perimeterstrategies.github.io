@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} – Perimeter Strategies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <a href="/" class="brand-link">
+          <img src="/assets/logo.png" class="logo" alt="Perimeter Strategies logo">
+          <span class="brand-text">Perimeter Strategies</span>
+        </a>
+      </div>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/services">Services</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (white, centered) -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-logo">
+          <img src="/assets/logo.png" alt="Perimeter Strategies logo">
+        </div>
+        <h1>Analytical insight at the regulatory perimeter.</h1>
+        <p class="hero-tagline">
+          Perimeter Strategies is a boutique research and regulatory strategy firm
+          focused on competition, telecommunications, and emerging technology policy.
+        </p>
+        <a href="/services" class="hero-button">Explore Services</a>
+      </div>
+    </section>
+
+    <!-- THREE-COLUMN FEATURES -->
+    <section class="features">
+      <div class="features-inner">
+        <h2>What we help you do.</h2>
+
+        <div class="features-grid">
+          <div class="feature">
+            <h3>Understand the landscape.</h3>
+            <p>
+              Map regulatory frameworks, incentives, and risks in complex markets.
+            </p>
+          </div>
+
+          <div class="feature">
+            <h3>Quantify the impact.</h3>
+            <p>
+              Use structured economic analysis to evaluate policy and market outcomes.
+            </p>
+          </div>
+
+          <div class="feature">
+            <h3>Shape the response.</h3>
+            <p>
+              Translate evidence into clear strategies, positions, and briefs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMPLE CTA BAND -->
+    <section class="cta-band">
+      <div class="cta-inner">
+        <h2>Need a clear view on regulation or competition?</h2>
+        <p>Get in touch to discuss research support or advisory work.</p>
+        <a href="/contact" class="hero-button">Contact</a>
+      </div>
+    </section>
+
+    <!-- OPTIONAL extra markdown content from index.md -->
+    <section class="home-extra">
+      <div class="page-inner">
+        {{ content }}
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      © {{ "now" | date: "%Y" }} Perimeter Strategies
+    </div>
+  </footer>
+</body>
+</html>
