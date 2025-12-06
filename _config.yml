@@ -4,7 +4,7 @@ description: Boutique research and regulatory strategy.
 # disabled because we are using a custom domain
 #baseurl: /business-frontpage 
 
-color-scheme: "#1E293B" 
+color-scheme: #ffffff 
 
 sass:
   sass_dir: /assets/css/_sass
