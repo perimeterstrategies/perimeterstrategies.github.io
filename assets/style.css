@@ -1,0 +1,185 @@
+/* Global box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Page background + body type */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f4f6; /* light grey, like MarkdownGuide */
+  color: #222;
+  line-height: 1.7;
+  font-family: "Georgia", "Times New Roman", serif; /* serif body */
+}
+
+/* Header + nav */
+
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e0e4ec;
+}
+
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand block: logo + text */
+
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  height: 24px;      /* small, as requested */
+  width: 24px;       /* square logo */
+  margin-right: 10px;
+}
+
+.brand-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111827;
+}
+
+/* Navigation */
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4b5563;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* sans */
+}
+
+.nav a:hover {
+  color: #2563eb; /* blue accent */
+}
+
+/* Main content "card" */
+
+.content {
+  max-width: 860px;
+  margin: 40px auto;
+  padding: 32px 26px 40px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+/* Footer */
+
+.site-footer {
+  max-width: 860px;
+  margin: 0 auto 40px;
+  padding: 12px 4px 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+/* Headings: sans, for contrast with serif body */
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #111827;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.1rem;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Paragraphs */
+
+p {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  color: #374151;
+}
+
+/* Links */
+
+a {
+  color: #2563eb;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+
+ul, ol {
+  padding-left: 1.2rem;
+  color: #374151;
+}
+
+/* Horizontal rule */
+
+hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+}
+
+/* First heading + intro paragraph (soft hero) */
+
+.content > h1:first-child {
+  margin-top: 0.2rem;
+}
+
+.content > h1:first-child + p {
+  margin-top: 0.4rem;
+  font-size: 1.02rem;
+  color: #4b5563;
+}
+
+/* Responsive */
+
+@media (max-width: 720px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .nav a {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+
+  .content {
+    margin: 24px 12px 32px;
+    padding: 24px 18px 30px;
+  }
+
+  .site-footer {
+    margin: 0 12px 32px;
+  }
+}
