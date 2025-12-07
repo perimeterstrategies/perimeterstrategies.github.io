@@ -1,8 +1,11 @@
 ---
+title: Services
 layout: default
 permalink: /services/
 ---
 
-## Full-length services page
+<h2>Services</h2>
+<hr />
+<p>
 
-
+</p>
